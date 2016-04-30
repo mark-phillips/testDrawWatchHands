@@ -1,0 +1,11 @@
+<resources>
+    <bitmap id="LauncherIcon" filename="images/icon.png" />
+    <bitmap id="background_id" filename="images/background.png" >
+        <palette>
+<color>FFFFFF</color>
+<color>000000</color>
+<color>00AAFF</color>
+<color>AAAAAA</color>
+        </palette>
+    </bitmap>
+</resources>
