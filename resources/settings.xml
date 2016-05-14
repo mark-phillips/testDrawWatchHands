@@ -1,0 +1,90 @@
+<resources>
+
+    <properties>
+        <property id="HOUR_HAND_STYLE" type="number">0</property>
+        <property id="MINUTE_HAND_STYLE" type="number">0</property>
+        <property id="SECOND_HAND_STYLE" type="number">100</property>
+        <property id="SECOND_HAND_COLOUR" type="number">16711680</property>
+        <property id="UTC_HAND_STYLE" type="number">101</property>
+    </properties>
+
+    <strings>
+       <string id="hour_hand_style">Hour hand style:</string>
+       <string id="minute_hand_style">Minute hand style:</string>
+       <string id="second_hand_style">Second hand style:</string>
+       <string id="UTC_hand_style">UTC hand style:</string>
+       <string id="second_hand_colour">Second hand colour:</string>
+       <string id="UTC_hand_colour">UTC hand colour:</string>
+       <string id="ARROW_HAND1">Arrow hand 1</string>
+       <string id="ARROW_HAND2">Arrow hand 2</string>
+       <string id="SWORD_HAND1">Sword hand 1</string>
+       <string id="CIRCLE_HAND">Circle hand</string>
+       <string id="ARROW_HAND">Arrow hand</string>
+       <string id="POINTER_HAND">Pointer hand</string>
+       
+       <string id="WHITE">White</string>
+       <string id="LT_GRAY">Light gray</string>
+       <string id="DK_GRAY">Dark gray</string>
+       <string id="BLACK">Black</string>
+       <string id="RED">Red</string>
+       <string id="DK_RED">Dark Red</string>
+       <string id="ORANGE">Orange</string>
+       <string id="PINK">Pink</string>
+       <string id="YELLOW">Yellow</string>
+       <string id="PURPLE">Purple</string>
+       <string id="GREEN">Green</string>
+       <string id="DK_GREEN">Dark Green</string>
+       <string id="BLUE">Blue</string>
+       <string id="DK_BLUE">Dark Blue</string>
+    </strings>
+
+    <settings>
+        <setting propertyKey="@Properties.HOUR_HAND_STYLE" title="@Strings.hour_hand_style">
+            <settingConfig type="list">
+                <listEntry value="0">@Rez.Strings.ARROW_HAND1</listEntry>
+                <listEntry value="1">@Rez.Strings.ARROW_HAND2</listEntry>
+                <listEntry value="2">@Rez.Strings.SWORD_HAND1</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.MINUTE_HAND_STYLE" title="@Strings.minute_hand_style">
+            <settingConfig type="list">
+                <listEntry value="0">@Rez.Strings.ARROW_HAND1</listEntry>
+                <listEntry value="1">@Rez.Strings.ARROW_HAND2</listEntry>
+                <listEntry value="2">@Rez.Strings.SWORD_HAND1</listEntry>
+            </settingConfig>
+        </setting>                
+        <setting propertyKey="@Properties.SECOND_HAND_STYLE" title="@Strings.second_hand_style">
+            <settingConfig type="list">
+                <listEntry value="100">@Rez.Strings.POINTER_HAND</listEntry>
+                <listEntry value="101">@Rez.Strings.ARROW_HAND</listEntry>
+                <listEntry value="102">@Rez.Strings.CIRCLE_HAND</listEntry>
+            </settingConfig>
+        </setting>                
+        <setting propertyKey="@Properties.SECOND_HAND_COLOUR" title="@Strings.second_hand_colour">
+            <settingConfig type="list">
+                <listEntry value="16777215">@Rez.Strings.WHITE</listEntry>
+                <listEntry value="11184810">@Rez.Strings.LT_GRAY</listEntry>
+                <listEntry value="5592405">@Rez.Strings.DK_GRAY</listEntry>
+                <listEntry value="0">@Rez.Strings.BLACK</listEntry>
+                <listEntry value="16711680">@Rez.Strings.RED</listEntry>
+                <listEntry value="11141120">@Rez.Strings.DK_RED</listEntry>
+                <listEntry value="16733440">@Rez.Strings.ORANGE</listEntry>
+                <listEntry value="16711935">@Rez.Strings.PINK</listEntry>
+                <listEntry value="16755200">@Rez.Strings.YELLOW</listEntry>
+                <listEntry value="11141375">@Rez.Strings.PURPLE</listEntry>
+                <listEntry value="65280">@Rez.Strings.GREEN</listEntry>
+                <listEntry value="43520">@Rez.Strings.DK_GREEN</listEntry>
+                <listEntry value="43775">@Rez.Strings.BLUE</listEntry>
+                <listEntry value="255">@Rez.Strings.DK_BLUE</listEntry>
+            </settingConfig>         
+        </setting>                
+        <setting propertyKey="@Properties.UTC_HAND_STYLE" title="@Strings.UTC_hand_style">
+            <settingConfig type="list">
+                <listEntry value="101">@Rez.Strings.ARROW_HAND</listEntry>
+                <listEntry value="100">@Rez.Strings.POINTER_HAND</listEntry>
+                <listEntry value="102">@Rez.Strings.CIRCLE_HAND</listEntry>
+            </settingConfig>
+        </setting>                
+    </settings>        
+
+</resources>

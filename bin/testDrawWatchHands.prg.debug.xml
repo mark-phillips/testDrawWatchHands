@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="47" pc="268435458" symbol="initialize"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="52" pc="268435473" symbol="RetrieveSettings"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="53" pc="268435512" symbol="RetrieveSettings"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="54" pc="268435551" symbol="RetrieveSettings"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="55" pc="268435590" symbol="RetrieveSettings"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="56" pc="268435629" symbol="RetrieveSettings"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="61" pc="268435671" symbol="onLayout"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="62" pc="268435714" symbol="onLayout"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="63" pc="268435757" symbol="onLayout"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="78" pc="268435809" symbol="drawTriangle"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="79" pc="268435958" symbol="drawTriangle"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="80" pc="268435966" symbol="drawTriangle"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="81" pc="268435976" symbol="drawTriangle"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="82" pc="268435986" symbol="drawTriangle"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="83" pc="268436005" symbol="drawTriangle"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="86" pc="268436024" symbol="drawTriangle"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="88" pc="268436042" symbol="drawTriangle"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="89" pc="268436073" symbol="drawTriangle"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="90" pc="268436104" symbol="drawTriangle"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="94" pc="268436154" symbol="drawTriangle"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="99" pc="268436171" symbol="drawLineFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="101" pc="268436200" symbol="drawLineFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="102" pc="268436294" symbol="drawLineFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="103" pc="268436302" symbol="drawLineFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="104" pc="268436312" symbol="drawLineFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="105" pc="268436322" symbol="drawLineFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="106" pc="268436341" symbol="drawLineFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="109" pc="268436360" symbol="drawLineFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="111" pc="268436378" symbol="drawLineFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="112" pc="268436409" symbol="drawLineFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="113" pc="268436440" symbol="drawLineFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="117" pc="268436490" symbol="drawLineFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="122" pc="268436561" symbol="drawBlockFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="123" pc="268436590" symbol="drawBlockFromMin"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="128" pc="268436615" symbol="drawBlock"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="129" pc="268436819" symbol="drawBlock"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="130" pc="268436827" symbol="drawBlock"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="131" pc="268436837" symbol="drawBlock"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="132" pc="268436847" symbol="drawBlock"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="133" pc="268436866" symbol="drawBlock"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="136" pc="268436885" symbol="drawBlock"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="138" pc="268436903" symbol="drawBlock"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="139" pc="268436934" symbol="drawBlock"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="140" pc="268436965" symbol="drawBlock"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="144" pc="268437015" symbol="drawBlock"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="150" pc="268437032" symbol="drawHourHand"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="156" pc="268437051" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="157" pc="268437070" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="158" pc="268437089" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="159" pc="268437099" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="162" pc="268437109" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="163" pc="268437116" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="164" pc="268437123" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="166" pc="268437130" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="167" pc="268437166" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="169" pc="268437188" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="170" pc="268437213" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="171" pc="268437249" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="184" pc="268437277" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="185" pc="268437313" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="187" pc="268437347" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="188" pc="268437383" symbol="drawHourHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="193" pc="268437426" symbol="drawMinuteHand"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="197" pc="268437445" symbol="drawMinuteHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="198" pc="268437452" symbol="drawMinuteHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="199" pc="268437459" symbol="drawMinuteHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="200" pc="268437466" symbol="drawMinuteHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="201" pc="268437502" symbol="drawMinuteHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="203" pc="268437527" symbol="drawMinuteHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="206" pc="268437552" symbol="drawMinuteHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="207" pc="268437588" symbol="drawMinuteHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="210" pc="268437616" symbol="drawMinuteHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="211" pc="268437652" symbol="drawMinuteHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="213" pc="268437689" symbol="drawMinuteHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="214" pc="268437725" symbol="drawMinuteHandArrow2"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="219" pc="268437762" symbol="drawSecondHand"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="223" pc="268437781" symbol="drawSecondHandArrow"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="224" pc="268437788" symbol="drawSecondHandArrow"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="225" pc="268437795" symbol="drawSecondHandArrow"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="226" pc="268437802" symbol="drawSecondHandArrow"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="227" pc="268437838" symbol="drawSecondHandArrow"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="229" pc="268437863" symbol="drawSecondHandArrow"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="232" pc="268437891" symbol="drawSecondHandArrow"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="233" pc="268437919" symbol="drawSecondHandArrow"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="236" pc="268437947" symbol="drawSecondHandArrow"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="237" pc="268437983" symbol="drawSecondHandArrow"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="239" pc="268438020" symbol="drawSecondHandArrow"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="240" pc="268438056" symbol="drawSecondHandArrow"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="248" pc="268438093" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="249" pc="268438106" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="250" pc="268438142" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="251" pc="268438173" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="252" pc="268438204" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="253" pc="268438235" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="254" pc="268438266" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="255" pc="268438297" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="256" pc="268438328" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="257" pc="268438359" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="258" pc="268438390" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="259" pc="268438421" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="260" pc="268438452" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="261" pc="268438483" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="262" pc="268438514" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="263" pc="268438521" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="264" pc="268438543" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="265" pc="268438550" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="266" pc="268438550" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="266" pc="268438568" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="267" pc="268438630" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="267" pc="268438648" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="268" pc="268438710" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="268" pc="268438728" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="269" pc="268438790" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="269" pc="268438808" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="270" pc="268438870" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="270" pc="268438888" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="271" pc="268438950" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="271" pc="268438968" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="272" pc="268439030" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="272" pc="268439048" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="273" pc="268439110" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="273" pc="268439128" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="274" pc="268439190" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="274" pc="268439208" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="275" pc="268439270" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="275" pc="268439288" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="276" pc="268439350" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="276" pc="268439368" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="277" pc="268439430" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="277" pc="268439448" symbol="drawMinuteMarks"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="282" pc="268439513" symbol="drawTwelve"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="283" pc="268439549" symbol="drawTwelve"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="284" pc="268439601" symbol="drawTwelve"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="286" pc="268439625" symbol="drawTwelve"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="287" pc="268439661" symbol="drawTwelve"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="291" pc="268439716" symbol="drawTwelve"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="292" pc="268439752" symbol="drawTwelve"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="293" pc="268439782" symbol="drawTwelve"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="294" pc="268439818" symbol="drawTwelve"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="301" pc="268439875" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="302" pc="268439888" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="303" pc="268439888" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="304" pc="268439904" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="305" pc="268439908" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="306" pc="268439915" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="307" pc="268439941" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="308" pc="268439967" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="309" pc="268439986" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="310" pc="268440005" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="311" pc="268440024" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="312" pc="268440043" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="313" pc="268440068" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="314" pc="268440093" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="315" pc="268440118" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="316" pc="268440143" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="317" pc="268440165" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="318" pc="268440187" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="319" pc="268440209" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="320" pc="268440231" symbol="drawWedge"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="325" pc="268440388" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="326" pc="268440438" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="327" pc="268440448" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="329" pc="268440466" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="330" pc="268440491" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="331" pc="268440527" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="332" pc="268440527" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="339" pc="268440543" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="340" pc="268440608" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="341" pc="268440673" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="342" pc="268440738" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="343" pc="268440803" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="344" pc="268440865" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="345" pc="268440927" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="346" pc="268440989" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="347" pc="268441051" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="347" pc="268441059" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="348" pc="268441098" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="348" pc="268441112" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="349" pc="268441151" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="349" pc="268441165" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="350" pc="268441204" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="350" pc="268441218" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="351" pc="268441257" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="351" pc="268441271" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="352" pc="268441310" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="352" pc="268441321" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="352" pc="268441331" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="354" pc="268441344" symbol="drawsec"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="362" pc="268441517" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="363" pc="268441517" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="364" pc="268441527" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="366" pc="268441534" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="367" pc="268441545" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="368" pc="268441562" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="369" pc="268441575" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="370" pc="268441591" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="371" pc="268441613" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="372" pc="268441632" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="373" pc="268441705" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="375" pc="268441725" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="376" pc="268441755" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="377" pc="268441774" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="378" pc="268441853" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="380" pc="268441873" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="381" pc="268441899" symbol="drawPolygonArc"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="387" pc="268441919" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="388" pc="268441929" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="393" pc="268441948" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="394" pc="268441958" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="402" pc="268441977" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="403" pc="268441977" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="404" pc="268441990" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="405" pc="268442003" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="409" pc="268442019" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="410" pc="268442026" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="411" pc="268442096" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="412" pc="268442132" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="413" pc="268442172" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="417" pc="268442212" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="418" pc="268442282" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="419" pc="268442318" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="420" pc="268442358" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="424" pc="268442398" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="425" pc="268442468" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="426" pc="268442544" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="427" pc="268442580" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="428" pc="268442620" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="432" pc="268442660" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="433" pc="268442690" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="434" pc="268442726" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="436" pc="268442787" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="438" pc="268442823" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="461" pc="268442886" symbol="drawFenix3Background"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="472" pc="268442903" symbol="drawSegment"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="473" pc="268442928" symbol="drawSegment"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="474" pc="268442953" symbol="drawSegment"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="475" pc="268442963" symbol="drawSegment"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="476" pc="268442973" symbol="drawSegment"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="477" pc="268443010" symbol="drawSegment"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="478" pc="268443047" symbol="drawSegment"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="479" pc="268443084" symbol="drawSegment"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="481" pc="268443121" symbol="drawSegment"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="484" pc="268443243" symbol="drawSegment"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="485" pc="268443259" symbol="drawSegment"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="492" pc="268443276" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="493" pc="268443276" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="494" pc="268443289" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="495" pc="268443302" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="496" pc="268443318" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="497" pc="268443335" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="498" pc="268443335" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="499" pc="268443335" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="500" pc="268443335" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="503" pc="268443342" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="505" pc="268443359" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="507" pc="268443386" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="510" pc="268443402" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="511" pc="268443419" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="513" pc="268443450" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="514" pc="268443510" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="518" pc="268443541" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="521" pc="268443606" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="525" pc="268443619" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="530" pc="268443629" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="531" pc="268443665" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="535" pc="268443691" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="537" pc="268443712" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="538" pc="268443728" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="540" pc="268443750" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="541" pc="268443757" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="543" pc="268443762" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="545" pc="268443779" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="546" pc="268443815" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="548" pc="268443832" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="549" pc="268443868" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="551" pc="268443885" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="552" pc="268443921" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="554" pc="268443938" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="555" pc="268443974" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="557" pc="268443991" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="566" pc="268444042" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="567" pc="268444067" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="567" pc="268444078" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="568" pc="268444088" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="573" pc="268444136" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="574" pc="268444165" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="576" pc="268444172" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="577" pc="268444300" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="578" pc="268444310" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="579" pc="268444320" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="580" pc="268444327" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="582" pc="268444342" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="584" pc="268444353" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="590" pc="268444403" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="591" pc="268444440" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="592" pc="268444456" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="595" pc="268444497" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="601" pc="268444513" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="605" pc="268444543" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="607" pc="268444564" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="608" pc="268444594" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="609" pc="268444630" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="611" pc="268444691" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="612" pc="268444727" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="618" pc="268444820" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="620" pc="268444850" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="621" pc="268444886" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="624" pc="268444947" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="625" pc="268444983" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="631" pc="268445049" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="632" pc="268445063" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="633" pc="268445099" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="634" pc="268445152" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="638" pc="268445179" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="640" pc="268445239" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="644" pc="268445302" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="645" pc="268445309" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="647" pc="268445320" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="648" pc="268445327" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="652" pc="268445395" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="653" pc="268445414" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="655" pc="268445476" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="656" pc="268445512" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="658" pc="268445600" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="659" pc="268445636" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="661" pc="268445712" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="662" pc="268445748" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="668" pc="268445829" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="669" pc="268445845" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="673" pc="268445880" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="674" pc="268445915" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="678" pc="268445931" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="680" pc="268445945" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="681" pc="268445980" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="686" pc="268445999" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="687" pc="268446035" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="688" pc="268446068" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="689" pc="268446104" symbol="onUpdate"/>
+<entry filename="C:\\Users\\markp\\Documents\\eclipse-workspaces\\garmin\\testDrawWatchHands\\source\\Testbed.mc" lineNum="706" pc="268446146" symbol="getInitialView"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="32" symbol="UTC_hand_style"/>
+<entry field="true" id="48" symbol="debug"/>
+<entry field="true" id="43" symbol="deviceName"/>
+<entry field="true" id="41" symbol="UTC_hand_colour"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="16" symbol="BLUE"/>
+<entry field="true" id="22" symbol="minute_hand_style"/>
+<entry id="9" object="true" symbol="Testbed"/>
+<entry field="true" id="54" symbol="SECOND_HAND_COLOUR"/>
+<entry field="true" id="38" symbol="SWORD_HAND1"/>
+<entry field="true" id="26" symbol="ORANGE"/>
+<entry field="true" id="8389759" symbol="radius"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="24" symbol="hour_hand_style"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry field="true" id="17" symbol="second_hand_style"/>
+<entry id="64" method="true" symbol="drawMinuteHandArrow2"/>
+<entry field="true" id="40" symbol="YELLOW"/>
+<entry id="65" method="true" symbol="drawSecondHand"/>
+<entry id="8388770" module="true" symbol="Strings"/>
+<entry id="61" method="true" symbol="drawHourHand"/>
+<entry field="true" id="53" symbol="SECOND_HAND_STYLE"/>
+<entry field="true" id="47" symbol="COUNTERCLOCKWISE"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry field="true" id="19" symbol="POINTER_HAND"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="35" symbol="DK_RED"/>
+<entry id="58" method="true" symbol="drawLineFromMin"/>
+<entry id="8388769" module="true" symbol="Rez"/>
+<entry field="true" id="21" symbol="PINK"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="68" method="true" symbol="drawTwelve"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="20" symbol="AppName"/>
+<entry field="true" id="8388914" symbol="moveBarLevel"/>
+<entry id="67" method="true" symbol="drawMinuteMarks"/>
+<entry field="true" id="23" symbol="second_hand_colour"/>
+<entry field="true" id="52" symbol="MINUTE_HAND_STYLE"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="60" method="true" symbol="drawBlock"/>
+<entry id="71" method="true" symbol="drawPolygonArc"/>
+<entry field="true" id="31" symbol="DK_GRAY"/>
+<entry field="true" id="49" symbol="switch_date"/>
+<entry field="true" id="39" symbol="LT_GRAY"/>
+<entry id="8" object="true" symbol="TestbedFace"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="57" method="true" symbol="drawTriangle"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="63" method="true" symbol="drawMinuteHand"/>
+<entry id="73" method="true" symbol="drawSegment"/>
+<entry field="true" id="37" symbol="RED"/>
+<entry id="69" method="true" symbol="drawWedge"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="8389348" symbol="font"/>
+<entry field="true" id="44" symbol="highPowerMode"/>
+<entry field="true" id="45" symbol="deg2rad"/>
+<entry id="59" method="true" symbol="drawBlockFromMin"/>
+<entry field="true" id="36" symbol="DK_BLUE"/>
+<entry field="true" id="51" symbol="HOUR_HAND_STYLE"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="55" symbol="UTC_HAND_STYLE"/>
+<entry field="true" id="42" symbol="background"/>
+<entry id="56" method="true" symbol="RetrieveSettings"/>
+<entry id="62" method="true" symbol="drawHourHandArrow2"/>
+<entry field="true" id="46" symbol="CLOCKWISE"/>
+<entry field="true" id="50" symbol="SWORD_HAND"/>
+<entry id="70" method="true" symbol="drawsec"/>
+<entry field="true" id="30" symbol="CIRCLE_HAND"/>
+<entry field="true" id="34" symbol="GREEN"/>
+<entry id="10" module="true" symbol="Menus"/>
+<entry id="66" method="true" symbol="drawSecondHandArrow"/>
+<entry field="true" id="28" symbol="WHITE"/>
+<entry field="true" id="27" symbol="ARROW_HAND2"/>
+<entry field="true" id="29" symbol="ARROW_HAND1"/>
+<entry field="true" id="14" symbol="id_font_black_diamond"/>
+<entry field="true" id="18" symbol="ARROW_HAND"/>
+<entry field="true" id="12" symbol="background_id"/>
+<entry field="true" id="33" symbol="PURPLE"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
+<entry id="72" method="true" symbol="drawFenix3Background"/>
+<entry field="true" id="25" symbol="BLACK"/>
+<entry field="true" id="15" symbol="DK_GREEN"/>
+</symbolTable>
+<localVars>
+<entry endPc="268436141" name="x" stackId="13" startPc="268436042"/>
+<entry endPc="268436141" name="y" stackId="14" startPc="268436042"/>
+<entry endPc="268436154" name="i" stackId="12" startPc="268436042"/>
+<entry endPc="268436168" name="result" stackId="7" startPc="268435809"/>
+<entry endPc="268436168" name="sin" stackId="11" startPc="268435809"/>
+<entry endPc="268436168" name="cos" stackId="10" startPc="268435809"/>
+<entry endPc="268436168" name="centerY" stackId="9" startPc="268435809"/>
+<entry endPc="268436168" name="coords" stackId="6" startPc="268435809"/>
+<entry endPc="268436168" name="centerX" stackId="8" startPc="268435809"/>
+<entry endPc="268436477" name="x" stackId="14" startPc="268436378"/>
+<entry endPc="268436477" name="y" stackId="15" startPc="268436378"/>
+<entry endPc="268436490" name="i" stackId="13" startPc="268436378"/>
+<entry endPc="268436558" name="result" stackId="8" startPc="268436171"/>
+<entry endPc="268436558" name="sin" stackId="12" startPc="268436171"/>
+<entry endPc="268436558" name="cos" stackId="11" startPc="268436171"/>
+<entry endPc="268436558" name="centerY" stackId="10" startPc="268436171"/>
+<entry endPc="268436558" name="coords" stackId="7" startPc="268436171"/>
+<entry endPc="268436558" name="centerX" stackId="9" startPc="268436171"/>
+<entry endPc="268436558" name="angle" stackId="6" startPc="268436171"/>
+<entry endPc="268436612" name="angle" stackId="6" startPc="268436561"/>
+<entry endPc="268437002" name="x" stackId="13" startPc="268436903"/>
+<entry endPc="268437002" name="y" stackId="14" startPc="268436903"/>
+<entry endPc="268437015" name="i" stackId="12" startPc="268436903"/>
+<entry endPc="268437029" name="result" stackId="7" startPc="268436615"/>
+<entry endPc="268437029" name="sin" stackId="11" startPc="268436615"/>
+<entry endPc="268437029" name="cos" stackId="10" startPc="268436615"/>
+<entry endPc="268437029" name="centerY" stackId="9" startPc="268436615"/>
+<entry endPc="268437029" name="coords" stackId="6" startPc="268436615"/>
+<entry endPc="268437029" name="centerX" stackId="8" startPc="268436615"/>
+<entry endPc="268437423" name="sin" stackId="4" startPc="268437051"/>
+<entry endPc="268437423" name="width" stackId="8" startPc="268437051"/>
+<entry endPc="268437423" name="length" stackId="7" startPc="268437051"/>
+<entry endPc="268437423" name="centerY" stackId="6" startPc="268437051"/>
+<entry endPc="268437423" name="cos" stackId="3" startPc="268437051"/>
+<entry endPc="268437423" name="centerX" stackId="5" startPc="268437051"/>
+<entry endPc="268437423" name="start" stackId="9" startPc="268437051"/>
+<entry endPc="268437759" name="width" stackId="4" startPc="268437445"/>
+<entry endPc="268437759" name="length" stackId="3" startPc="268437445"/>
+<entry endPc="268437759" name="start" stackId="5" startPc="268437445"/>
+<entry endPc="268438090" name="width" stackId="4" startPc="268437781"/>
+<entry endPc="268438090" name="length" stackId="3" startPc="268437781"/>
+<entry endPc="268438090" name="start" stackId="5" startPc="268437781"/>
+<entry endPc="268439510" name="end" stackId="4" startPc="268438093"/>
+<entry endPc="268439510" name="inset" stackId="2" startPc="268438093"/>
+<entry endPc="268439510" name="length" stackId="3" startPc="268438093"/>
+<entry endPc="268439510" name="c" stackId="6" startPc="268438093"/>
+<entry endPc="268439510" name="start" stackId="5" startPc="268438093"/>
+<entry endPc="268440385" name="yy2" stackId="10" startPc="268439875"/>
+<entry endPc="268440385" name="winkel" stackId="15" startPc="268439875"/>
+<entry endPc="268440385" name="kxx2" stackId="13" startPc="268439875"/>
+<entry endPc="268440385" name="winkelPI3" stackId="19" startPc="268439875"/>
+<entry endPc="268440385" name="winkelPI2" stackId="18" startPc="268439875"/>
+<entry endPc="268440385" name="xx2" stackId="8" startPc="268439875"/>
+<entry endPc="268440385" name="end" stackId="6" startPc="268439875"/>
+<entry endPc="268440385" name="tickwidth3" stackId="17" startPc="268439875"/>
+<entry endPc="268440385" name="tickwidth2" stackId="16" startPc="268439875"/>
+<entry endPc="268440385" name="xx" stackId="7" startPc="268439875"/>
+<entry endPc="268440385" name="sinPI3" stackId="23" startPc="268439875"/>
+<entry endPc="268440385" name="sinPI2" stackId="22" startPc="268439875"/>
+<entry endPc="268440385" name="kxx" stackId="11" startPc="268439875"/>
+<entry endPc="268440385" name="yy" stackId="9" startPc="268439875"/>
+<entry endPc="268440385" name="cosPI3" stackId="21" startPc="268439875"/>
+<entry endPc="268440385" name="cosPI2" stackId="20" startPc="268439875"/>
+<entry endPc="268440385" name="kyy" stackId="12" startPc="268439875"/>
+<entry endPc="268440385" name="kyy2" stackId="14" startPc="268439875"/>
+<entry endPc="268441498" name="xx" stackId="6" startPc="268440491"/>
+<entry endPc="268441498" name="yy2" stackId="9" startPc="268440491"/>
+<entry endPc="268441498" name="winkel" stackId="14" startPc="268440491"/>
+<entry endPc="268441498" name="kyy2" stackId="13" startPc="268440491"/>
+<entry endPc="268441498" name="xx2" stackId="7" startPc="268440491"/>
+<entry endPc="268441498" name="kxx2" stackId="12" startPc="268440491"/>
+<entry endPc="268441498" name="kxx" stackId="10" startPc="268440491"/>
+<entry endPc="268441498" name="yy" stackId="8" startPc="268440491"/>
+<entry endPc="268441498" name="kyy" stackId="11" startPc="268440491"/>
+<entry endPc="268441514" name="k" stackId="5" startPc="268440466"/>
+<entry endPc="268441514" name="sec" stackId="4" startPc="268440388"/>
+<entry endPc="268441514" name="dateInfo" stackId="3" startPc="268440388"/>
+<entry endPc="268441725" name="i" stackId="15" startPc="268441613"/>
+<entry endPc="268441725" name="angle" stackId="16" startPc="268441613"/>
+<entry endPc="268441873" name="i" stackId="17" startPc="268441755"/>
+<entry endPc="268441913" name="offset" stackId="13" startPc="268441545"/>
+<entry endPc="268441913" name="pts" stackId="12" startPc="268441545"/>
+<entry endPc="268441913" name="dec" stackId="14" startPc="268441545"/>
+<entry endPc="268441916" name="ptCnt" stackId="11" startPc="268441517"/>
+<entry endPc="268441916" name="curAngle" stackId="10" startPc="268441517"/>
+<entry endPc="268442900" name="height" stackId="3" startPc="268441977"/>
+<entry endPc="268442900" name="width" stackId="2" startPc="268441977"/>
+<entry endPc="268442900" name="dimensions" stackId="5" startPc="268441977"/>
+<entry endPc="268442900" name="bar_width" stackId="4" startPc="268441977"/>
+<entry endPc="268443273" name="starty" stackId="10" startPc="268442903"/>
+<entry endPc="268443273" name="startx" stackId="9" startPc="268442903"/>
+<entry endPc="268443273" name="endangle" stackId="6" startPc="268442903"/>
+<entry endPc="268443273" name="endy" stackId="12" startPc="268442903"/>
+<entry endPc="268443273" name="endx" stackId="11" startPc="268442903"/>
+<entry endPc="268443273" name="ycenter" stackId="8" startPc="268442903"/>
+<entry endPc="268443273" name="coords" stackId="13" startPc="268442903"/>
+<entry endPc="268443273" name="startangle" stackId="5" startPc="268442903"/>
+<entry endPc="268443273" name="xcenter" stackId="7" startPc="268442903"/>
+<entry endPc="268444133" name="progress" stackId="13" startPc="268443762"/>
+<entry endPc="268444500" name="partial" stackId="21" startPc="268444403"/>
+<entry endPc="268444500" name="remain" stackId="22" startPc="268444403"/>
+<entry endPc="268444513" name="count" stackId="20" startPc="268444342"/>
+<entry endPc="268444790" name="dimensions" stackId="23" startPc="268444564"/>
+<entry endPc="268445046" name="dimensions" stackId="24" startPc="268444820"/>
+<entry endPc="268445996" name="sec" stackId="27" startPc="268445945"/>
+<entry endPc="268446137" name="now" stackId="9" startPc="268443276"/>
+<entry endPc="268446137" name="SEGMENT_SIZE" stackId="18" startPc="268443276"/>
+<entry endPc="268446137" name="date_pos" stackId="26" startPc="268443276"/>
+<entry endPc="268446137" name="dimensions" stackId="25" startPc="268443276"/>
+<entry endPc="268446137" name="hour" stackId="5" startPc="268443276"/>
+<entry endPc="268446137" name="BOUNDARY" stackId="17" startPc="268443276"/>
+<entry endPc="268446137" name="bar_width" stackId="8" startPc="268443276"/>
+<entry endPc="268446137" name="battery" stackId="14" startPc="268443276"/>
+<entry endPc="268446137" name="dateStr" stackId="11" startPc="268443276"/>
+<entry endPc="268446137" name="clockTime" stackId="4" startPc="268443276"/>
+<entry endPc="268446137" name="NUM_SEGMENTS" stackId="15" startPc="268443276"/>
+<entry endPc="268446137" name="height" stackId="3" startPc="268443276"/>
+<entry endPc="268446137" name="width" stackId="2" startPc="268443276"/>
+<entry endPc="268446137" name="min" stackId="6" startPc="268443276"/>
+<entry endPc="268446137" name="bar_length" stackId="12" startPc="268443276"/>
+<entry endPc="268446137" name="segment_colour" stackId="16" startPc="268443276"/>
+<entry endPc="268446137" name="GAUGE_START" stackId="19" startPc="268443276"/>
+<entry endPc="268446137" name="info" stackId="10" startPc="268443276"/>
+<entry endPc="268446137" name="activityInfo" stackId="7" startPc="268443276"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry name="initialize" parent="TestbedFace">
+<documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="RetrieveSettings" parent="TestbedFace">
+<documentation/>
+</functionEntry>
+<functionEntry name="onLayout" parent="TestbedFace">
+<documentation><![CDATA[<div class="description"> Load resources<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onShow" parent="TestbedFace">
+<documentation/>
+</functionEntry>
+<functionEntry name="onHide" parent="TestbedFace">
+<documentation><![CDATA[<div class="description"> Nothing to do when going away<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="drawTriangle" parent="TestbedFace">
+<param id="dc"/>
+<param id="angle"/>
+<param id="width"/>
+<param id="inner"/>
+<param id="length"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawLineFromMin" parent="TestbedFace">
+<param id="dc"/>
+<param id="min"/>
+<param id="width"/>
+<param id="inner"/>
+<param id="length"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawBlockFromMin" parent="TestbedFace">
+<param id="dc"/>
+<param id="min"/>
+<param id="width"/>
+<param id="inner"/>
+<param id="length"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawBlock" parent="TestbedFace">
+<param id="dc"/>
+<param id="angle"/>
+<param id="width"/>
+<param id="inner"/>
+<param id="length"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawHourHand" parent="TestbedFace">
+<param id="dc"/>
+<param id="min"/>
+<documentation><![CDATA[<div class="description"> Draw the Hour hand<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="drawHourHandArrow2" parent="TestbedFace">
+<param id="dc"/>
+<param id="min"/>
+<documentation><![CDATA[<div class="description"> Draw the prototype watch face arrow Hour hand<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="drawMinuteHand" parent="TestbedFace">
+<param id="dc"/>
+<param id="min"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawMinuteHandArrow2" parent="TestbedFace">
+<param id="dc"/>
+<param id="min"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawSecondHand" parent="TestbedFace">
+<param id="dc"/>
+<param id="min"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawSecondHandArrow" parent="TestbedFace">
+<param id="dc"/>
+<param id="min"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawMinuteMarks" parent="TestbedFace">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawTwelve" parent="TestbedFace">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawWedge" parent="TestbedFace">
+<param id="dc"/>
+<param id="minute"/>
+<param id="tickwidth"/>
+<param id="inset"/>
+<param id="length"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawsec" parent="TestbedFace">
+<param id="dc"/>
+<param id="rad2"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawPolygonArc" parent="TestbedFace">
+<param id="dc"/>
+<param id="x"/>
+<param id="y"/>
+<param id="radius"/>
+<param id="thickness"/>
+<param id="angle"/>
+<param id="offsetIn"/>
+<param id="color"/>
+<param id="direction"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onExitSleep" parent="TestbedFace">
+<documentation/>
+</functionEntry>
+<functionEntry name="onEnterSleep" parent="TestbedFace">
+<documentation/>
+</functionEntry>
+<functionEntry name="drawFenix3Background" parent="TestbedFace">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawSegment" parent="TestbedFace">
+<param id="dc"/>
+<param id="startmin"/>
+<param id="endmin"/>
+<param id="colour"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onUpdate" parent="TestbedFace">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Handle the update event<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onStart" parent="Testbed">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStop" parent="Testbed">
+<documentation/>
+</functionEntry>
+<functionEntry name="getInitialView" parent="Testbed">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

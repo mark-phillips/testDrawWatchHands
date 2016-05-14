@@ -29,12 +29,32 @@ class TestbedFace extends Ui.WatchFace
     var radius = 0;
     var debug = false;
     var switch_date = false;
+    var ARROW_HAND1 = 0;
+    var ARROW_HAND2 = 1;
+    var SWORD_HAND = 2;
+    var POINTER_HAND = 100;
+    var CIRCLE_HAND = 101;
+    var ARROW_HAND = 102;
+    var HOUR_HAND_STYLE = 0;
+    var MINUTE_HAND_STYLE = 0;
+    var SECOND_HAND_STYLE = 0;
+    var SECOND_HAND_COLOUR = 0;
+    var UTC_HAND_STYLE = 0;
 
     //! Constructor
     function initialize()
     {
+      RetrieveSettings() ;
     }
 
+    // Pick up settings changes
+    function RetrieveSettings() {
+        HOUR_HAND_STYLE = Application.getApp().getProperty("HOUR_HAND_STYLE");
+        MINUTE_HAND_STYLE = Application.getApp().getProperty("MINUTE_HAND_STYLE");
+        SECOND_HAND_STYLE = Application.getApp().getProperty("SECOND_HAND_STYLE");
+        SECOND_HAND_COLOUR = Application.getApp().getProperty("SECOND_HAND_COLOUR");
+        UTC_HAND_STYLE = Application.getApp().getProperty("UTC_HAND_STYLE");
+    }
     //! Load resources
     function onLayout()
     {
@@ -51,9 +71,10 @@ class TestbedFace extends Ui.WatchFace
     function onHide()
     {
     }
+
     function drawTriangle(dc, angle, width, inner, length)
     {
-        // Map out the coordinates 
+        // Map out the coordinates
         var coords = [ [0,-inner], [-(width/2), -length], [width/2, -length] ];
         var result = new [3];
         var centerX = radius;
@@ -76,7 +97,7 @@ class TestbedFace extends Ui.WatchFace
     function drawLineFromMin(dc, min, width, inner, length)
     {
         var angle = (min / 60.0) * Math.PI * 2;
-        // Map out the coordinates 
+        // Map out the coordinates
         var coords = [ [0,-inner], [0, -length] ];
         var result = new [2];
         var centerX = radius;
@@ -103,7 +124,7 @@ class TestbedFace extends Ui.WatchFace
     }
     function drawBlock(dc, angle, width, inner, length)
     {
-        // Map out the coordinates 
+        // Map out the coordinates
         var coords = [ [-(width/2),-inner], [-(width/2), -length], [width/2, -length], [width/2, -inner] ];
         var result = new [4];
         var centerX = radius;
@@ -125,6 +146,12 @@ class TestbedFace extends Ui.WatchFace
 
     //! Draw the Hour hand
     function drawHourHand(dc, min)
+    {
+        drawHourHandArrow2(dc, min);
+    }
+
+    //! Draw the prototype watch face arrow Hour hand
+    function drawHourHandArrow2(dc, min)
     {
         var cos = Math.cos(min);
         var sin = Math.sin(min);
@@ -159,10 +186,13 @@ class TestbedFace extends Ui.WatchFace
         // Draw the Trimin
         dc.setColor(Gfx.COLOR_WHITE,Gfx.COLOR_WHITE);
         drawTriangle(dc, min, width-2 , length+12, length+3);
-
     }
 
     function drawMinuteHand(dc, min)
+    {
+        drawMinuteHandArrow2(dc, min);
+    }
+    function drawMinuteHandArrow2(dc, min)
     {
         var length = 74;
         var width = 10;
@@ -186,6 +216,10 @@ class TestbedFace extends Ui.WatchFace
 
     function drawSecondHand(dc,min)
     {
+        drawSecondHandArrow(dc,min);
+    }
+    function drawSecondHandArrow(dc,min)
+    {
         var length = 84;
         var width =  6;
         var start = 10;
@@ -195,7 +229,7 @@ class TestbedFace extends Ui.WatchFace
         drawTriangle(dc, min, width, 0, 20);
 
         // Fill the interior
-        dc.setColor(Gfx.COLOR_WHITE,Gfx.COLOR_WHITE);
+        dc.setColor(SECOND_HAND_COLOUR,SECOND_HAND_COLOUR);//Gfx.COLOR_WHITE);
         drawBlock(dc, min, width/3, start, length);
 
         // Draw the Triangle
@@ -209,10 +243,10 @@ class TestbedFace extends Ui.WatchFace
 
     // Draw minute marker
     //  https://forums.garmin.com/showthread.php?301499-How-to-draw-a-ring-like-this&highlight=draw
-    function drawMinuteMarks(dc ) 
+    function drawMinuteMarks(dc )
     {
         var inset = -10;
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE); 
+        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
         drawWedge(dc,0,2,inset,8);
         drawWedge(dc,5,2,inset,25);
         drawWedge(dc,10,2,inset,25);
@@ -229,25 +263,25 @@ class TestbedFace extends Ui.WatchFace
         var end = dc.getHeight()/2 - length;
         var start = end - length;
         var c;
-        for (c=0; c<5; c++) { drawLineFromMin(dc,1+c,2,radius-6 ,radius); } 
-        for (c=0; c<5; c++) { drawLineFromMin(dc,6+c,2,radius-6,radius); } 
-        for (c=0; c<5; c++) { drawLineFromMin(dc,11+c,2,radius-6,radius); } 
-        for (c=0; c<5; c++) { drawLineFromMin(dc,16+c,2,radius-6,radius); } 
-        for (c=0; c<5; c++) { drawLineFromMin(dc,21+c,2,radius-6,radius); } 
-        for (c=0; c<5; c++) { drawLineFromMin(dc,26+c,2,radius-6,radius); } 
-        for (c=0; c<5; c++) { drawLineFromMin(dc,31+c,2,radius-6,radius); } 
-        for (c=0; c<5; c++) { drawLineFromMin(dc,36+c,2,radius-6,radius); } 
-        for (c=0; c<5; c++) { drawLineFromMin(dc,41+c,2,radius-6,radius); } 
-        for (c=0; c<5; c++) { drawLineFromMin(dc,46+c,2,radius-6,radius); } 
-        for (c=0; c<5; c++) { drawLineFromMin(dc,51+c,2,radius-6,radius); } 
-        for (c=0; c<5; c++) { drawLineFromMin(dc,56+c,2,radius-6,radius); } 
+        for (c=0; c<5; c++) { drawLineFromMin(dc,1+c,2,radius-6 ,radius); }
+        for (c=0; c<5; c++) { drawLineFromMin(dc,6+c,2,radius-6,radius); }
+        for (c=0; c<5; c++) { drawLineFromMin(dc,11+c,2,radius-6,radius); }
+        for (c=0; c<5; c++) { drawLineFromMin(dc,16+c,2,radius-6,radius); }
+        for (c=0; c<5; c++) { drawLineFromMin(dc,21+c,2,radius-6,radius); }
+        for (c=0; c<5; c++) { drawLineFromMin(dc,26+c,2,radius-6,radius); }
+        for (c=0; c<5; c++) { drawLineFromMin(dc,31+c,2,radius-6,radius); }
+        for (c=0; c<5; c++) { drawLineFromMin(dc,36+c,2,radius-6,radius); }
+        for (c=0; c<5; c++) { drawLineFromMin(dc,41+c,2,radius-6,radius); }
+        for (c=0; c<5; c++) { drawLineFromMin(dc,46+c,2,radius-6,radius); }
+        for (c=0; c<5; c++) { drawLineFromMin(dc,51+c,2,radius-6,radius); }
+        for (c=0; c<5; c++) { drawLineFromMin(dc,56+c,2,radius-6,radius); }
     }
 
-    function drawTwelve(dc) 
+    function drawTwelve(dc)
     {
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE); 
+        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
         drawTriangle(dc, 0, 24, radius-45, radius-12);
-        if (Sys.getDeviceSettings().phoneConnected) 
+        if (Sys.getDeviceSettings().phoneConnected)
         {
             dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLACK);
             drawTriangle(dc, 0,  12, radius-38, radius-16 );
@@ -257,12 +291,12 @@ class TestbedFace extends Ui.WatchFace
             dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_TRANSPARENT);
             dc.fillCircle(radius, 22, 6);
             dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-            dc.drawText(radius, 8 , Gfx.FONT_SMALL, "-", Gfx.TEXT_JUSTIFY_CENTER); // 
+            dc.drawText(radius, 8 , Gfx.FONT_SMALL, "-", Gfx.TEXT_JUSTIFY_CENTER); //
         }
     }
 
 
-    function drawWedge(dc, minute ,tickwidth, inset, length ) 
+    function drawWedge(dc, minute ,tickwidth, inset, length )
     {
         var end = radius-length;
         var xx, xx2, yy, yy2,kxx,kyy,kxx2,kyy2, winkel;
@@ -276,59 +310,59 @@ class TestbedFace extends Ui.WatchFace
         var sinPI2 = Math.sin(winkelPI2);
         var sinPI3 = Math.sin(winkelPI3);
         yy  = 1*radius * (1+cosPI2 );
-        yy2 = 1*radius * (1+cosPI3);  
+        yy2 = 1*radius * (1+cosPI3);
         xx  = 1* radius * (1+sinPI2 );
-        xx2 = 1* radius * (1+sinPI3); 
-        kyy  = 1*radius + end * (cosPI2 ); 
-        kyy2 = 1*radius + end * (cosPI3);  
+        xx2 = 1* radius * (1+sinPI3);
+        kyy  = 1*radius + end * (cosPI2 );
+        kyy2 = 1*radius + end * (cosPI3);
         kxx  = 1* radius + end * (sinPI2);
-        kxx2 = 1* radius + end * (sinPI3);                               
+        kxx2 = 1* radius + end * (sinPI3);
         dc.fillPolygon([[kxx, kyy], [xx, yy] ,[xx2,yy2],[kxx2, kyy2]]);
     }
 
     function drawsec(dc, rad2)
-    {  
+    {
         var dateInfo = Time.Gregorian.info( Time.now(), Time.FORMAT_SHORT );
-        var sec  = dateInfo.sec;            
+        var sec  = dateInfo.sec;
         for (var k = 0; k <=59; k++)
         {
-            if ( ( k >= ( sec - 4 ) ) && ( k<=sec)){    
+            if ( ( k >= ( sec - 4 ) ) && ( k<=sec)){
                 dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
                 var xx, xx2, yy, yy2,kxx,kyy,kxx2,kyy2, winkel;
                 winkel = 180 +k * -6;
                 //      1 Polygon moving around a bigger and smaller circle
                 //        xx/yy----------------xx2/yy2
                 //          \                     /
-                //           \                   /          --> 
-                //            \                 / 
-                //         kxx/kyy---------kxx2/kyy2   
+                //           \                   /          -->
+                //            \                 /
+                //         kxx/kyy---------kxx2/kyy2
                 yy  = 1+radius * (1+Math.cos(Math.PI*(winkel-2)/180));
-                yy2 = 1+radius * (1+Math.cos(Math.PI*(winkel+3)/180));  
+                yy2 = 1+radius * (1+Math.cos(Math.PI*(winkel+3)/180));
                 xx  = 1+ radius * (1+Math.sin(Math.PI*(winkel-2)/180));
-                xx2 = 1+ radius * (1+Math.sin(Math.PI*(winkel+3)/180)); 
-                kyy  = 1+radius + rad2 * (Math.cos(Math.PI*(winkel-2)/180)); 
-                kyy2 = 1+radius + rad2 * (Math.cos(Math.PI*(winkel+3)/180));  
+                xx2 = 1+ radius * (1+Math.sin(Math.PI*(winkel+3)/180));
+                kyy  = 1+radius + rad2 * (Math.cos(Math.PI*(winkel-2)/180));
+                kyy2 = 1+radius + rad2 * (Math.cos(Math.PI*(winkel+3)/180));
                 kxx  = 1+ radius + rad2 * (Math.sin(Math.PI*(winkel-2)/180));
-                kxx2 = 1+ radius + rad2 * (Math.sin(Math.PI*(winkel+3)/180));                               
-                if ( k == sec ){dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_DK_RED); }  
+                kxx2 = 1+ radius + rad2 * (Math.sin(Math.PI*(winkel+3)/180));
+                if ( k == sec ){dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_DK_RED); }
                 if ( k == sec - 1 ){dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED);}
                 if ( k == sec - 2 ){dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_DK_GRAY);}
                 if ( k == sec - 3 ){dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_LT_GRAY);}
-                if ( k == sec - 4 ){dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);}    
-                if (yy > 180) {yy = yy -1; yy2 = yy2 -1;} 
+                if ( k == sec - 4 ){dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);}
+                if (yy > 180) {yy = yy -1; yy2 = yy2 -1;}
                 // finally draw the ploygon with 4 coordinates
                 dc.fillPolygon([[kxx, kyy], [xx, yy] ,[xx2,yy2],[kxx2, kyy2]]);
-            }  
+            }
         }
     }
 
-   // Draw an arc with polygons 
+   // Draw an arc with polygons
    // https://forums.garmin.com/showthread.php?231881-Arc-Function&p=568317#post568317
-    function drawPolygonArc(dc, x, y, radius, thickness, angle, offsetIn, color, direction){    	
+    function drawPolygonArc(dc, x, y, radius, thickness, angle, offsetIn, color, direction){
         var curAngle;
         direction = direction*-1;
         var ptCnt = 30;
-        
+
         if(angle > 0f){
           var pts = new [ptCnt*2+2];
           var offset = 90f*direction+offsetIn;
@@ -354,7 +388,7 @@ class TestbedFace extends Ui.WatchFace
         Ui.requestUpdate();
     }
 
-    function onEnterSleep() 
+    function onEnterSleep()
     {
         highPowerMode = false;
         Ui.requestUpdate();
@@ -400,7 +434,7 @@ class TestbedFace extends Ui.WatchFace
         dc.fillRoundedRectangle(width/5, height*.72,
                                 dimensions[0]+5, dimensions[1]-2, 4);
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
-        
+
         dc.drawText(width/5+2, height*.71,
                     Gfx.FONT_XTINY, "Move", Gfx.TEXT_JUSTIFY_LEFT);
 
@@ -431,7 +465,7 @@ class TestbedFace extends Ui.WatchFace
     }
 
     // ============================================================
-    // Draw segment from center 
+    // Draw segment from center
     // ============================================================
     function drawSegment(dc, startmin, endmin, colour)
     {
@@ -443,7 +477,7 @@ class TestbedFace extends Ui.WatchFace
         var starty = ycenter + (50+ radius) * Math.cos(startangle);
         var   endx = xcenter + (50+ radius) * Math.sin(  endangle);
         var   endy = ycenter + (50+ radius) * Math.cos(  endangle);
-        // Map out the coordinates 
+        // Map out the coordinates
         var coords = [ [radius,radius], [startx, starty], [endx,endy] ];
 
         // Draw the polygon
@@ -480,7 +514,7 @@ class TestbedFace extends Ui.WatchFace
         hour = ( ( ( clockTime.hour % 12 ) * 60 ) + clockTime.min );
 
         // ============================================================
-        // Adjust the date position 
+        // Adjust the date position
         if  ((hour >  160  && hour < 200) ||
              (clockTime.min > 13 && clockTime.min < 17))
         {
@@ -498,13 +532,13 @@ class TestbedFace extends Ui.WatchFace
 
         // ============================================================
         // Draw the move bar
-        if (debug && activityInfo != null) 
+        if (debug && activityInfo != null)
         {
-            activityInfo.moveBarLevel = moveBarLevel; 
-            moveBarLevel++; 
+            activityInfo.moveBarLevel = moveBarLevel;
+            moveBarLevel++;
         }
         var bar_length = 9;
-        if (activityInfo) 
+        if (activityInfo)
         {
             if (activityInfo.moveBarLevel > 0 )
             {
@@ -545,19 +579,19 @@ class TestbedFace extends Ui.WatchFace
         var GAUGE_START = 45;
         for (var count = 1; count <= NUM_SEGMENTS ; count++)
         {
-            if (battery > (BOUNDARY*count)) // Draw full segment 
-            { 
-                drawSegment(dc,   GAUGE_START + (count-1)*SEGMENT_SIZE, 
-                                  GAUGE_START+(count)*SEGMENT_SIZE, 
-                                  segment_colour[count-1] ); 
+            if (battery > (BOUNDARY*count)) // Draw full segment
+            {
+                drawSegment(dc,   GAUGE_START + (count-1)*SEGMENT_SIZE,
+                                  GAUGE_START+(count)*SEGMENT_SIZE,
+                                  segment_colour[count-1] );
             }
             else// Draw partial segment
-            { 
-              var partial = GAUGE_START + (count-1)*SEGMENT_SIZE + ((battery-(count-1)*BOUNDARY) / BOUNDARY) * SEGMENT_SIZE; 
+            {
+              var partial = GAUGE_START + (count-1)*SEGMENT_SIZE + ((battery-(count-1)*BOUNDARY) / BOUNDARY) * SEGMENT_SIZE;
               var remain =  ((battery-(count-1)*BOUNDARY));
-                drawSegment(dc, GAUGE_START + (count-1)*SEGMENT_SIZE, 
+                drawSegment(dc, GAUGE_START + (count-1)*SEGMENT_SIZE,
                                 partial,
-                                segment_colour[count-1] ); 
+                                segment_colour[count-1] );
                 break;
             }
         }
@@ -608,7 +642,7 @@ class TestbedFace extends Ui.WatchFace
         // ============================================================
         // Draw the date
         var date_pos = 0;
-        if (switch_date) 
+        if (switch_date)
         {
             date_pos = 20;
             dc.drawText(width-22,-15+height/2,font, "3", Gfx.TEXT_JUSTIFY_RIGHT);
@@ -625,7 +659,7 @@ class TestbedFace extends Ui.WatchFace
         dc.fillRoundedRectangle(date_pos, -dimensions[1]/2+height/2,
                                 dimensions[0]+5, dimensions[1]-2, 8);
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
-        dc.drawText(date_pos+1, -dimensions[1]/2 -1 + height/2, 
+        dc.drawText(date_pos+1, -dimensions[1]/2 -1 + height/2,
                     Gfx.FONT_SMALL, dateStr, Gfx.TEXT_JUSTIFY_LEFT);
 
         // ============================================================

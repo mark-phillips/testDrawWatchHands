@@ -3,9 +3,8 @@
     <iq:application entry="Testbed" id="7CAADD24115D49C6AC1EEB4D6A75CE49" launcherIcon="LauncherIcon" name="AppName" type="watchface">
 
         <iq:products>
-            <iq:product id="round-watch"/>
-            <iq:product id="d2bravo"/>
             <iq:product id="fenix3"/>
+            <iq:product id="fr230"/>
         </iq:products>
 
         <iq:permissions>

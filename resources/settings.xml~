@@ -1,0 +1,71 @@
+<resources>
+
+    <properties>
+        <property id="HOUR_HAND_STYLE" type="number">0</property>
+        <property id="MINUTE_HAND_STYLE" type="number">0</property>
+        <property id="SECOND_HAND_STYLE" type="number">100</property>
+        <property id="UTC_HAND_STYLE" type="number">101</property>
+    </properties>
+
+    <strings>
+       <string id="hour_hand_style">Hour hand style:</string>
+       <string id="minute_hand_style">Minute hand style:</string>
+       <string id="second_hand_style">Second hand style:</string>
+       <string id="UTC_hand_style">UTC hand style:</string>
+       <string id="second_hand_colour">Second hand colour:</string>
+       <string id="UTC_hand_colour">UTC hand colour:</string>
+       <string id="ARROW_HAND1">Arrow hand 1</string>
+       <string id="ARROW_HAND2">Arrow hand 2</string>
+       <string id="SWORD_HAND1">Sword hand 1</string>
+       <string id="CIRCLE_HAND">Circle hand</string>
+       <string id="ARROW_HAND">Arrow hand</string>
+       <string id="POINTER_HAND">Pointer hand</string>
+       
+       WHITE        255 255 255     FFFFFF
+LT_GRAY   170   170 170     AAAAAA
+DK_GRAY   85    85  85      555555
+BLACK       0     0   0       000000
+RED       255   0     0       FF0000
+DK_RED    170   0     0       AA0000
+ORANGE    255   85  0         FF5500
+PINK        255 0     255       FF00FF
+YELLOW    255   170 0         FFAA00
+PURPLE    170 0   255       AA00FF
+GREEN       0     255   0         00FF00
+DK_GREEN    0     170   0         00AA00
+BLUE        0     170   255     00AAFF
+DK_BLUE   0   0   255       0000FF
+    </strings>
+
+    <settings>
+        <setting propertyKey="@Properties.HOUR_HAND_STYLE" title="@Strings.hour_hand_style">
+            <settingConfig type="list">
+                <listEntry value="0">@Rez.Strings.ARROW_HAND1</listEntry>
+                <listEntry value="1">@Rez.Strings.ARROW_HAND2</listEntry>
+                <listEntry value="2">@Rez.Strings.SWORD_HAND1</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.MINUTE_HAND_STYLE" title="@Strings.minute_hand_style">
+            <settingConfig type="list">
+                <listEntry value="0">@Rez.Strings.ARROW_HAND1</listEntry>
+                <listEntry value="1">@Rez.Strings.ARROW_HAND2</listEntry>
+                <listEntry value="2">@Rez.Strings.SWORD_HAND1</listEntry>
+            </settingConfig>
+        </setting>                
+        <setting propertyKey="@Properties.SECOND_HAND_STYLE" title="@Strings.second_hand_style">
+            <settingConfig type="list">
+                <listEntry value="100">@Rez.Strings.POINTER_HAND</listEntry>
+                <listEntry value="101">@Rez.Strings.ARROW_HAND</listEntry>
+                <listEntry value="102">@Rez.Strings.CIRCLE_HAND</listEntry>
+            </settingConfig>
+        </setting>                
+        <setting propertyKey="@Properties.UTC_HAND_STYLE" title="@Strings.UTC_hand_style">
+            <settingConfig type="list">
+                <listEntry value="101">@Rez.Strings.ARROW_HAND</listEntry>
+                <listEntry value="100">@Rez.Strings.POINTER_HAND</listEntry>
+                <listEntry value="102">@Rez.Strings.CIRCLE_HAND</listEntry>
+            </settingConfig>
+        </setting>                
+    </settings>        
+
+</resources>
